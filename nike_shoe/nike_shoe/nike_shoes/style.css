@@ -1,0 +1,161 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#left{
+    position: relative;
+    width: 35%;
+    height: 100%;
+    background-color: rgba(204, 40, 37, 0.89) ; 
+}
+#left #lefttext{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top : 20%;   
+}
+#lefttext h1{
+    font-size: 50px ;
+    margin-bottom: 10px ;
+    
+}
+#lefttext h1 span{
+    font-weight: 200 ;
+}
+#lefttext h3{
+    font-size: 30px ;
+    font-weight: 600;
+    margin-bottom: 15px  ;
+    margin-top: 10px ;
+
+}
+#lefttext p{
+    font-size: 18px ;
+    margin-bottom: 15px  ;
+    margin-top: 10px ; 
+
+}
+#lefttext button{
+    cursor: pointer;
+    padding: 8px 22px ;
+    border-radius: 10px ;
+    border: none;
+    font-weight: 700 ;
+    margin-top: 10px ;
+}
+
+#bottomtext{
+    position: absolute;
+    width: 80%;
+    bottom: 20px ;
+    padding: 5px 20px ;
+    
+    background-color: #fff;
+    color: black;
+    
+}
+
+#bottomtext h3{
+    color: rgba(204, 40, 37, 0.89) ;
+    margin-bottom: 10px ;
+    margin-top: 10px ;
+}
+#bottomtext p{
+    line-height: 1.2;
+    margin-bottom: 10px ;
+}
+
+#right{
+    position: relative;
+    width: 65%;
+    height: 100%;
+    background-color: rgb(48, 163, 163)
+}
+#righttext{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 40%;   
+}
+#righttext h1{
+    color: rgba(204, 40, 37, 0.89); 
+    font-size: 50px ;
+}
+#righttext h1 span{
+    color: black;
+    font-weight: 100 ;   
+}
+#righttext p{
+    font-weight: 400 ;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+}
+#righttext h5{
+    font-weight: 700 ;
+    font-size: 17px ;
+    margin-bottom: 25px ;
+}
+
+#buttons{
+    display: flex;
+    gap: 20px ;
+    
+}
+#buttons #btn1{
+    cursor: pointer;
+    padding: 10px 22px ;
+    border-radius: 10px ;
+    border: 1px solid black ;
+     font-weight: 550;
+    
+}
+#buttons #btn2{
+    cursor: pointer;
+    background-color: rgba(204, 40, 37, 0.89)  ;
+    padding: 10px 12px ;
+    border-radius: 10px ;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+#right #h3{
+    margin-top: 20px ;
+    font-size: 20px ;
+    
+}
+
+#samples{
+    margin-top: 10px ;
+    display: flex;
+    gap: 20px ;
+}
+.sample{
+    width: 100px ;
+    overflow : hidden;
+    border-radius: 10px  ;
+}
+ .sample img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover; 
+} 
+
+#right>img{ 
+    position: absolute;
+    top:  45%;
+    left: 0%;
+    width: 80% ;
+    transform: translate(-50% , -50% ) rotate(-20deg);
+}
